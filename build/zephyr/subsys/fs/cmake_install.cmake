@@ -37,3 +37,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/ARM/bin/arm-none-eabi-objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fs/nvs/cmake_install.cmake")
+endif()
+

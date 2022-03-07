@@ -84,6 +84,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/settings/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 

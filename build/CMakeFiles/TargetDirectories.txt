@@ -95,6 +95,8 @@
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/bluetooth/services/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fs/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fs/CMakeFiles/edit_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fs/nvs/CMakeFiles/rebuild_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fs/nvs/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/ipc/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/ipc/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/mgmt/CMakeFiles/rebuild_cache.dir
@@ -111,6 +113,12 @@
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/random/CMakeFiles/subsys__random.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/storage/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/storage/CMakeFiles/edit_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/storage/flash_map/CMakeFiles/rebuild_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/storage/flash_map/CMakeFiles/edit_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/settings/CMakeFiles/rebuild_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/settings/CMakeFiles/edit_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/settings/src/CMakeFiles/rebuild_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/settings/src/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fb/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/fb/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/subsys/portability/CMakeFiles/rebuild_cache.dir
@@ -148,6 +156,9 @@
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/gpio/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/gpio/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/flash/CMakeFiles/rebuild_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/flash/CMakeFiles/edit_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/flash/CMakeFiles/drivers__flash.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/serial/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/serial/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/zephyr/drivers/serial/CMakeFiles/drivers__serial.dir
@@ -208,6 +219,9 @@
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/mpsl/clock_control/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/mpsl/clock_control/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/mpsl/clock_control/CMakeFiles/..__nrf__drivers__mpsl__clock_control.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/mpsl/flash_sync/CMakeFiles/rebuild_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/mpsl/flash_sync/CMakeFiles/edit_cache.dir
+/Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/mpsl/flash_sync/CMakeFiles/..__nrf__drivers__mpsl__flash_sync.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/hw_cc310/CMakeFiles/rebuild_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/hw_cc310/CMakeFiles/edit_cache.dir
 /Users/ericpietrowicz/ncs/hidrate_applications/led_ws2812/build/modules/nrf/drivers/entropy/CMakeFiles/rebuild_cache.dir
