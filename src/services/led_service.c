@@ -138,4 +138,4 @@ BT_GATT_SERVICE_DEFINE(led_service,
                                               BT_GATT_PERM_READ_ENCRYPT | BT_GATT_PERM_WRITE_ENCRYPT,
                                               NULL, on_receive, NULL),
                        BT_GATT_CCC(on_cccd_changed,
-                                   BT_GATT_PERM_READ | BT_GATT_PERM_WRITE), );
+                                   BT_GATT_PERM_READ_ENCRYPT | BT_GATT_PERM_WRITE_ENCRYPT), );
