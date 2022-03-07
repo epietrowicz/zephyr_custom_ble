@@ -176,7 +176,7 @@ static struct bt_conn_auth_cb conn_auth_callbacks = {
 	.pairing_complete = pairing_complete,
 	.pairing_failed = pairing_failed};
 
-// This will be called to initalize our bluetooth stack
+// This will be called to initialize our bluetooth stack
 static void bt_ready(int err)
 {
 	if (err)
@@ -192,7 +192,7 @@ static void bt_ready(int err)
 
 	settings_load();
 
-	// Initalize services
+	// Initialize services
 	err = led_service_init();
 
 	if (err)
@@ -230,52 +230,13 @@ void main(void)
 
 	printk("Starting Nordic Lightbox\n");
 
-	// Configure connection callbacks
-	bt_conn_cb_register(&conn_callbacks);
-	// Configure security callbacks
-	err = bt_conn_auth_cb_register(&conn_auth_callbacks);
-
-	if (err)
-	{
-		printk("Failed to initalize auth callbacks\n");
-	}
-
-	err = bt_enable(NULL);
-	if (err)
-	{
-		printk("Failed to enable BT\n");
-	}
-
-	k_sem_give(&ble_init_ok);
-
-	if (IS_ENABLED(CONFIG_SETTINGS))
-	{
-		err = settings_load();
-		if (!err)
-		{
-			printk("Settings loaded!\n");
-		}
-	}
-
-	// Initalize services
-	err = led_service_init();
+	err = bt_enable(bt_ready);
 
 	if (err)
 	{
 		printk("Failed to init lightbox (err:%d)\n", err);
 		return;
 	}
-
-	// Start advertising
-	err = bt_le_adv_start(BT_LE_ADV_CONN, ad, ARRAY_SIZE(ad),
-						  sd, ARRAY_SIZE(sd));
-	if (err)
-	{
-		printk("Advertising failed to start (err %d)\n", err);
-		return;
-	}
-
-	printk("Advertising successfully started\n");
 
 	if (err)
 	{
@@ -300,6 +261,6 @@ void main(void)
 		error(); // Catch error
 	}
 
-	int ret = bt_unpair(BT_ID_DEFAULT, BT_ADDR_LE_ANY);
-	printk("Attempting to unpair device %d\n", ret);
+	// int ret = bt_unpair(BT_ID_DEFAULT, BT_ADDR_LE_ANY);
+	// printk("Attempting to unpair device %d\n", ret);
 }
